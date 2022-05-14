@@ -1,0 +1,181 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/nikhil-dev/code-learning/jpegdens/contracts/HelloWorld.sol": {
+      "lastModificationDate": 1652523544860,
+      "contentHash": "174e7ec97b039123de643c1f9fc1e00e",
+      "sourceName": "contracts/HelloWorld.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "HelloWorld"
+      ]
+    },
+    "/Users/nikhil-dev/code-learning/jpegdens/contracts/ComplexType.sol": {
+      "lastModificationDate": 1652535850321,
+      "contentHash": "5954843350b04ac3c02ab5cefd341160",
+      "sourceName": "contracts/ComplexType.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "StateVisibility"
+      ]
+    },
+    "/Users/nikhil-dev/code-learning/jpegdens/contracts/Election.sol": {
+      "lastModificationDate": 1652535862582,
+      "contentHash": "c257eb6f85d0ccaed435dcc72e405e78",
+      "sourceName": "contracts/Election.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "Election"
+      ]
+    },
+    "/Users/nikhil-dev/code-learning/jpegdens/contracts/SimpleBank.sol": {
+      "lastModificationDate": 1652535785770,
+      "contentHash": "cc1ef00640beeef5cd72bf7e12b12c2e",
+      "sourceName": "contracts/SimpleBank.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "SimpleBank"
+      ]
+    },
+    "/Users/nikhil-dev/code-learning/jpegdens/contracts/ValueType.sol": {
+      "lastModificationDate": 1652535884259,
+      "contentHash": "8ff45a8f5ffeaa54e8164abceb14311d",
+      "sourceName": "contracts/ValueType.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "BooleanOperators",
+        "ValueType"
+      ]
+    }
+  }
+}
