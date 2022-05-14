@@ -1,4 +1,4 @@
-#WEB3-SOLIDITY
+# WEB3-SOLIDITY
 
 - Projects with Solidty Exploration and simple contracts.
 - Adding Test and Deploy test files.
