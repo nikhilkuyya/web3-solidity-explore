@@ -37,8 +37,8 @@
       ]
     },
     "/Users/nikhil-dev/code-learning/jpegdens/contracts/ComplexType.sol": {
-      "lastModificationDate": 1652535850321,
-      "contentHash": "5954843350b04ac3c02ab5cefd341160",
+      "lastModificationDate": 1652537219297,
+      "contentHash": "c027af96ee4e83eaaed29d4e459a34de",
       "sourceName": "contracts/ComplexType.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -68,7 +68,7 @@
         "^0.8.10"
       ],
       "artifacts": [
-        "StateVisibility"
+        "ComplexType"
       ]
     },
     "/Users/nikhil-dev/code-learning/jpegdens/contracts/Election.sol": {
