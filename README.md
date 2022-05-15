@@ -9,7 +9,9 @@
 ## Tools
 
 - hardhat
+- metamask
 - yarn
+- webpack
 
 ## Languages
 
