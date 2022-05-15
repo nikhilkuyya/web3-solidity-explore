@@ -25,3 +25,5 @@
 - Compile the contracts : `npx hardhat compile`
 - Unit Testing, running the Contract : `npx hardhat test`
 - Deploying the contract, Please add the provider ( here: metamask in brower as extension ) and connect the any account( from the first step ) to wallet : `npx hardhat run ./scripts/deploy-hello.ts --network localhost`
+
+### Please create a issue if you noticed any bug or documentation improvement of small things to share.
