@@ -1,4 +1,5 @@
 import { ethers } from "ethers";
+import Counter from "../artifacts/contracts/Counter.sol/Counter.json";
 
 function getEth(){
  // @ts-ignore
@@ -26,26 +27,41 @@ async function getContract(){
  if(!(await hasSigners()) && !(await requestAccess())){
   console.log("Lets us play, plese give your money");
  }
- const provider = new ethers.providers.Web3Provider(getEth());
+ const providerWithSigner = new ethers.providers.Web3Provider(getEth()).getSigner();
  const contract = new ethers.Contract(contractAddress,
- [
-  "function hello() public pure returns(string memory)"
- ],
- provider);
+ Counter.abi, 
+ providerWithSigner);
 
  return contract;
 }
 
 async function run(){
  const contract = await getContract();
- const helloResponse = await contract.hello();
- document.body.innerHTML = helloResponse;
- console.log(helloResponse);
+ const el = document.createElement("div");
+
+ async function setCount(count?){
+  const countObj = count || (await contract.getCounter());
+  console.log('counter',countObj);
+  el.innerText = countObj.toNumber();
+ }
+ await setCount();
+
+ const button = document.createElement("button");
+ button.innerText = '++';
+ button.onclick = async function(){
+  await contract.count();
+ }
+ 
+ contract.on(contract.filters.CounterInc(),function(count){
+  setCount(count);
+ });
+ document.body.appendChild(el);
+ document.body.appendChild(button);
 }
 
 run().then(function(){
  console.log("we are done");
-}).catch(function(){
- console.error("something is wrong");
+}).catch(function(err){
+ console.error("something is wrong",err);
 });
 
