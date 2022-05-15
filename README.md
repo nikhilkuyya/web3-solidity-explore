@@ -4,7 +4,7 @@
 - Adding Test and Deploy test files.
 - Adding the Docs where ever needed for explicit.
 
-
+### Please create a issue if you noticed any bug or documentation improvement of small things to help me and hopefully some Value(not NFT at this momemt) add back.
 
 ## Tools
 
@@ -26,4 +26,4 @@
 - Unit Testing, running the Contract : `npx hardhat test`
 - Deploying the contract, Please add the provider ( here: metamask in brower as extension ) and connect the any account( from the first step ) to wallet : `npx hardhat run ./scripts/deploy-hello.ts --network localhost`
 
-### Please create a issue if you noticed any bug or documentation improvement of small things to help me and hopefully some Value(not NFT at this momemt) add back.
+
