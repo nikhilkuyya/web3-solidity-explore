@@ -17,3 +17,11 @@
 
 - solidity
 - typescript
+
+
+## How to Run the application ( localhost )
+
+- Running the network with hardhat : `npx hardhat node`
+- Compile the contracts : `npx hardhat compile`
+- Unit Testing, running the Contract : `npx hardhat test`
+- Deploying the contract, Please add the provider ( here: metamask in brower as extension ) and connect the any account( from the first step ) to wallet : `npx hardhat run ./scripts/deploy-hello.ts --network localhost`
