@@ -18,3 +18,4 @@
 
 - Why is base value is int with 32 bit. example: string is converted to int while storing.
 - Deploying to test network
+- How event works in depth.
