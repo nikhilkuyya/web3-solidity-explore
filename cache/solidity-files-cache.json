@@ -178,8 +178,8 @@
       ]
     },
     "/Users/nikhil-dev/code-learning/jpegdens/contracts/Counter.sol": {
-      "lastModificationDate": 1652610879819,
-      "contentHash": "66957d7f997c8bc4048c02d5308a3fe2",
+      "lastModificationDate": 1652678099312,
+      "contentHash": "b8fd82e6ff442b4386b74346c484a15f",
       "sourceName": "contracts/Counter.sol",
       "solcConfig": {
         "version": "0.8.10",

@@ -9,7 +9,7 @@ async function deploy(){
 }
 
 async function count(counter){
- await counter.count();
+ await counter.increment();
  console.log("Counter", await counter.getCounter());
 }
 
