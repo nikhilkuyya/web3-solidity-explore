@@ -6,9 +6,9 @@
 ### Learning
 
 - sendTransaction 
- - we need signer along with provider.
+  - we need signer along with provider.
 - Events 
- - Events are logged into the some store which can listended in frontnend integration.
+  - Events are logged into the some store which can emited to frontend integration, like websockets.
 - ABI: interface which we can provider for the contract connection from the JSON output.
 - Observation: Working with local deployement doesn't scale with larger nonce.
 - You cannot console.log with the int are parameter; // need to look for the contract to understading the methods.:
